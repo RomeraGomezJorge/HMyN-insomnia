@@ -1,17 +1,30 @@
 _id: env_f894bf72914c457cbb0c3bf3341e21ee
 type: Environment
 parentId: env_5cb625e8316992f0f37868b5ddb4c524fb7f553a
-modified: 1686371846676
+modified: 1686372633672
 created: 1686371579108
 name: Dev
 data:
+  GLOBAL_HEADERS:
+    Accept: application/json
+    Authorization: Bearer {% response 'body',
+      'req_072974bd34a441649fbe82424ae34dd7', 'b64::JC50b2tlbg==::46b', 'never',
+      60 %}
+    Content-Type: application/json
   base_url: http://localhost:4000
-  toekn: Bearer {% response 'body', 'req_072974bd34a441649fbe82424ae34dd7',
+  token: Bearer {% response 'body', 'req_072974bd34a441649fbe82424ae34dd7',
     'b64::JC50b2tlbg==::46b', 'never', 60 %}
+  base_url_medicos: "{{ _.base_url }}/medicos"
 dataPropertyOrder:
   "&":
+    - GLOBAL_HEADERS
     - base_url
-    - toekn
+    - token
+    - base_url_medicos
+  "&~|GLOBAL_HEADERS":
+    - Accept
+    - Authorization
+    - Content-Type
 color: null
 isPrivate: false
 metaSortKey: 1686371579108

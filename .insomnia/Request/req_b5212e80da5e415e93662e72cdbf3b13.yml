@@ -1,0 +1,21 @@
+_id: req_b5212e80da5e415e93662e72cdbf3b13
+type: Request
+parentId: fld_a476a2e842e64cb68cf526b485b431a5
+modified: 1686372649162
+created: 1686372566178
+url: "{{ _.base_url_medicos }}/"
+name: uno
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686372566178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
