@@ -1,0 +1,45 @@
+_id: req_8bf57f5a6a0345468a50415aa9792717
+type: Request
+parentId: fld_71abc92947694cf7a1cab9ea7218c1d2
+modified: 1686342864838
+created: 1686342788310
+url: "{{ _.url_proveedores }}/354"
+name: modificar
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "razonSocial":"razonSocial-test update",
+    "contacto":"contacto@gmail.com",
+    "cuit":"cuit-aaa",
+    "domicilio":"sdfdsf",
+    "numeroDocumento":111111,
+    "matricula":111,
+    "apellidoNombre":"",
+    "direccion":"",
+    "paisCodigo":1,
+    "provinciaCodigo":"F",
+    "departamentoId":1,
+    "localidadCodigo":1,
+    "barrioCodigo":1,
+    "telefono":"",
+    "celularPrefijo":"",
+    "celularNumero":"",
+    "email":"test@emailc.om",
+    "fechaAlta":"2023-06-07T14:03:04.000Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686340717272.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

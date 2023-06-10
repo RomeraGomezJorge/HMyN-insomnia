@@ -1,7 +1,7 @@
 _id: env_f894bf72914c457cbb0c3bf3341e21ee
 type: Environment
 parentId: env_5cb625e8316992f0f37868b5ddb4c524fb7f553a
-modified: 1686372633672
+modified: 1686407436017
 created: 1686371579108
 name: Dev
 data:
@@ -14,13 +14,15 @@ data:
   base_url: http://localhost:4000
   token: Bearer {% response 'body', 'req_072974bd34a441649fbe82424ae34dd7',
     'b64::JC50b2tlbg==::46b', 'never', 60 %}
-  base_url_medicos: "{{ _.base_url }}/medicos"
+  url_medicos: "{{ _.base_url }}/medicos"
+  url_proveedores: "{{ _.base_url }}/proveedores"
 dataPropertyOrder:
   "&":
     - GLOBAL_HEADERS
     - base_url
     - token
-    - base_url_medicos
+    - url_medicos
+    - url_proveedores
   "&~|GLOBAL_HEADERS":
     - Accept
     - Authorization

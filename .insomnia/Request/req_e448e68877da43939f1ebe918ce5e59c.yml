@@ -1,17 +1,19 @@
-_id: req_d04b004bce1046e7a9259ee2b2c32562
+_id: req_e448e68877da43939f1ebe918ce5e59c
 type: Request
-parentId: fld_a476a2e842e64cb68cf526b485b431a5
-modified: 1686407502911
-created: 1686372500390
-url: "{{ _.url_medicos }}"
+parentId: fld_71abc92947694cf7a1cab9ea7218c1d2
+modified: 1686406739400
+created: 1686338738271
+url: "{{ _.url_proveedores }}"
 name: listar
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
-metaSortKey: -1686372500390
+authentication:
+  type: bearer
+  token: ""
+metaSortKey: -1686338738271
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

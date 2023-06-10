@@ -1,0 +1,62 @@
+_id: req_d61f313d64004141ba5be35b456ef42d
+type: Request
+parentId: fld_71abc92947694cf7a1cab9ea7218c1d2
+modified: 1686407789396
+created: 1686342541030
+url: "{{ _.url_proveedores }}"
+name: crear
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "razonSocial":"{% faker 'company', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'en' %}",
+
+    "contacto":"test@emailc.om",
+
+    "cuit":"{% faker 'word', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'en' %}",
+
+    "domicilio":"{% faker 'address', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'en' %}",
+
+    "numeroDocumento":111111,
+
+    "matricula":111,
+
+    "apellidoNombre":"",
+
+    "direccion":"",
+
+    "paisCodigo":1,
+
+    "provinciaCodigo":"F",
+
+    "departamentoId":1,
+
+    "localidadCodigo":1,
+
+    "barrioCodigo":1,
+
+    "telefono":"",
+
+    "celularPrefijo":"",
+
+    "celularNumero":"",
+
+    "fechaAlta":"2023-06-07T14:03:04.000Z"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686342541030
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

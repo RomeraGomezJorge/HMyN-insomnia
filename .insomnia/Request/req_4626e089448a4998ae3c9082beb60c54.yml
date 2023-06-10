@@ -1,0 +1,23 @@
+_id: req_4626e089448a4998ae3c9082beb60c54
+type: Request
+parentId: fld_71abc92947694cf7a1cab9ea7218c1d2
+modified: 1686340975741
+created: 1686338867947
+url: "{{ _.url_proveedores }}?buscar=gensana"
+name: con filtros
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: ""
+metaSortKey: -1686327057930.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
