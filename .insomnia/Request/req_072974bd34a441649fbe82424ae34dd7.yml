@@ -1,0 +1,31 @@
+_id: req_072974bd34a441649fbe82424ae34dd7
+type: Request
+parentId: fld_5613adfed63a44cd98e615f4909990aa
+modified: 1686371694451
+created: 1686371517455
+url: "{{ _.base_url }}/auth/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username":"jromera",
+    	"password":"26sesoFUTA"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8e50af3e8b3b446bb6a8fcaf2f964454
+authentication: {}
+metaSortKey: -1686371517455
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
